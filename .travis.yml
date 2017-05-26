@@ -5,7 +5,7 @@ language: python
 python:
   - "3.5"
 
-env: 
+env:
   - TOX_ENV=py35-django-18
   - TOX_ENV=py34-django-18
   - TOX_ENV=py33-django-18
@@ -28,3 +28,10 @@ script: tox -e $TOX_ENV
 
 after_success:
   - codecov -e TOX_ENV
+
+notifications:
+  email:
+    recipients:
+      - ben@maaina.com
+    on_success: change
+    on_failure: always
