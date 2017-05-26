@@ -2,8 +2,11 @@
 from django.conf.urls import url
 from django.views.generic import TemplateView
 
-from . import views
-
 urlpatterns = [
-    url(r'3', TemplateView.as_view(template_name="3.html")),
+    url(
+        r'3',
+        TemplateView.as_view(
+            template_name="dj_bootstrap_swatches/3.html"
+        )
+    ),
 ]
