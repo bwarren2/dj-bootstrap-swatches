@@ -44,7 +44,7 @@ Add Django Bootstrap Swatches's URL patterns:
 
     urlpatterns = [
         ...
-        url(r'^', include(dj_bootstrap_swatches_urls)),
+        url(r'^bootswatch/', include(dj_bootstrap_swatches_urls)),
         ...
     ]
 
