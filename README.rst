@@ -48,6 +48,8 @@ Add Django Bootstrap Swatches's URL patterns:
         ...
     ]
 
+Per "Two Scoops of Django" design patterns, the default swatch page tries to extend a base template called `base.html` and a block called `content`.  If this isn't your practice, you'll need to adjust things to fit.
+
 Features
 --------
 
