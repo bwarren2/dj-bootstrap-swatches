@@ -53,7 +53,18 @@ Per "Two Scoops of Django" design patterns, the default swatch page tries to ext
 Features
 --------
 
+
 * TODO
+
+Development
+--------
+
+Run a fake server with the test settings and nav to `http://localhost:8000/3`
+
+.. code-block:: none
+
+    python manage.py runserver --settings tests.settings
+
 
 Running Tests
 -------------
