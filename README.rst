@@ -65,6 +65,11 @@ Run a fake server with the test settings and nav to `http://localhost:8000/3`
 
     python manage.py runserver --settings tests.settings
 
+Development
+--------
+` bumpversion --current-version 0.6.0 minor `
+` python setup.py publish `
+
 
 Running Tests
 -------------
